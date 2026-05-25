@@ -22,7 +22,7 @@ def lees_temperatuur():
 while True:
     try:
         temperatuur = lees_temperatuur()
-        print("Temperatuur: " {temperatuur} °C")
+        print(f"Temperatuur: {temperatuur} °C")
         client.publish(MQTT_TOPIC, str(temperatuur))
     except Exception as e:
         print(f"Fout: {e}")
