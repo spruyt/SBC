@@ -27,7 +27,7 @@ Ontvangt MQTT-berichten
 3 LED's (groen/geel/rood) geven aan of de ventilator draait en hoe snel
 Opnieuw volledig onafhankelijk van de potentiometercode op RPi #2 → 2 aparte processen
 
-5. IoT Controller (op één RPi, niet dezelfde als de MQTT broker) --> Maarten
+5. IoT Controller (op één RPi, niet dezelfde als de MQTùT broker) --> Maarten
 
 Ontvangt alle MQTT-berichten
 Logica: als gevraagde temp (pot) > gemeten temp (NTC) → ventilator aan
@@ -46,6 +46,7 @@ ComponentDraait opNTC sensor + I²C → MQTTRPi #1Ventilator (servo) actuatorRPi
 In te dienen
 
 Logboek (wie deed wat, technische info, problemen) → PDF
+Technisch document = iemand zou ons ding moeten kunnen nabouwen met enkel dat
 Alle code als losse bestanden met correcte extensie
 Foto's van de hardwareopstellingen
 Video (MP4, 1080p) met demo — beide teamleden moeten aan het woord komen
