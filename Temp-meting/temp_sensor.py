@@ -7,7 +7,7 @@ I2C_BUS = 1
 I2C_ADRES = 0x08
 MQTT_BROKER = "192.168.1.100"  # aanpassen
 MQTT_PORT = 1883
-MQTT_TOPIC = "klimaat/temperatuur"  # aanpassen
+MQTT_TOPIC = "groep1/klimaat/temperatuur"  # aanpassen
 
 bus = smbus2.SMBus(I2C_BUS)
 client = mqtt.Client()
